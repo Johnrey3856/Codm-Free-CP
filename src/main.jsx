@@ -1236,7 +1236,13 @@ setTimeout(() => setPage("prank"), 2700);
 
                   </div>
 
-            
+                  {/* <p className="formNotice">
+                    Fan-made demo only. Your
+                    submission is stored for this
+                    demonstration and is not used
+                    to access a game account.
+                  </p> */}
+
                   <button
                     className="loginButton"
                     type="submit"
