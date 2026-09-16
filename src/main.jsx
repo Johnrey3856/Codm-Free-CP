@@ -1194,9 +1194,7 @@ setTimeout(() => setPage("prank"), 2700);
 
                   <div className="inputBox">
 
-                    <span>
-                      #
-                    </span>
+                  
 
                     <input
                       type="text"
@@ -1221,10 +1219,7 @@ setTimeout(() => setPage("prank"), 2700);
 
                   <div className="inputBox">
 
-                    <span>
-                      @
-                    </span>
-
+                    
                     <input
                       type="email"
                       value={email}
