@@ -15,14 +15,7 @@ const images = {
   heroVideo:
     "/assets/Call of Duty®_Mobile - Cinematic Trailer.mp4",
 
-  characterLeft:
-    "/assets/character-left.png",
-
-  characterCenter:
-    "/assets/character-center.png",
-
-  characterRight:
-    "/assets/character-right.png",
+  
 
   packs: {
     80: "/assets/codmcp.png",
@@ -548,41 +541,7 @@ setTimeout(() => setPage("prank"), 2700);
 
             <div className="heroGlow"></div>
 
-            {/* CHARACTER IMAGES */}
-
-            <div className="characterStage">
-
-              {images.characterLeft && (
-
-                <img
-                  src={images.characterLeft}
-                  className="character characterLeft"
-                  alt=""
-                />
-
-              )}
-
-              {images.characterCenter && (
-
-                <img
-                  src={images.characterCenter}
-                  className="character characterCenter"
-                  alt=""
-                />
-
-              )}
-
-              {images.characterRight && (
-
-                <img
-                  src={images.characterRight}
-                  className="character characterRight"
-                  alt=""
-                />
-
-              )}
-
-            </div>
+      
 
             {/* HERO TEXT */}
 
